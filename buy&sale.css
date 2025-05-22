@@ -1,0 +1,83 @@
+/* Buy & Sale section styling */
+.buy-sale-section {
+    padding: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-left: 3.8rem; /* Adjust for the vertical navbar */
+}
+
+.buy-sale-section h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+/* Grid layout: 6 columns, 2 rows */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 equal-width columns */
+    grid-gap: 20px; /* Spacing between the cards */
+}
+
+/* Book card styling */
+.book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease; /* Hover effect */
+}
+
+.book-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Book image styling */
+.book-image {
+    width: 100%; /* Ensure image fills the card */
+    height: 200px;
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Price styling */
+.book-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px; 
+}
+
+/* Styling for the book title */
+.book-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Space between title and image */
+    color: #333;
+}
+
+
+
+/* Container for the "Show More Books" button */
+.show-more-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Styling for the "Show More Books" button */
+.show-more-btn {
+    padding: 12px 30px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.show-more-btn:hover {
+    background-color: #555; /* Lighter background on hover */
+}

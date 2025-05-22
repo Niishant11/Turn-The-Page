@@ -1,0 +1,45 @@
+/* About Us section overall styling */
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    margin-left: 3.8rem; /* Adjust for left navbar width */
+    gap: 20px;
+}
+
+/* Content styling */
+.about-content {
+    flex: 1;
+    max-width: 600px;
+}
+
+.about-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Image styling */
+.about-image-container {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

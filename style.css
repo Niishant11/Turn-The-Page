@@ -1,0 +1,253 @@
+/* Basic styling for the navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Left-side brand name */
+.nav-left .brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Right-side search bar, icons, and hamburger button */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-bar {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-icon,
+.cart-icon {
+    width: 24px;
+    cursor: pointer;
+}
+
+.hamburger-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hamburger menu, hidden by default */
+.hamburger-menu {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Start off-screen */
+    width: 250px; /* Fixed width for the menu */
+    height: 100vh; /* Full viewport height */
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent background */
+    z-index: 999;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    transition: right 0.3s ease; /* Smooth slide-in/out effect */
+}
+
+.hamburger-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* Show the hamburger menu when it's active */
+.hamburger-menu.active {
+    display: flex;
+    right: 0; /* Bring it into view */
+}
+
+
+/* Style for vertical sidebar navigation */
+.vertical-nav {
+    width: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #333;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.vertical-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.vertical-nav ul li {
+    margin: 2.1rem 0;
+    /* Spacing between menu items */
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    writing-mode: vertical-rl;
+    /* Change writing mode to rotate text */
+    text-orientation: mixed;
+    /* Ensure text is readable */
+    transform: rotate(180deg);
+    /* Correct orientation after writing-mode change */
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.vertical-nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Main content area adjustment */
+.main-content {
+    margin-left: 1.6rem;
+    /* Create space for the sidebar */
+    padding: 1rem;
+}
+
+/* Basic styling for the top navigation bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a49999;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-left: 28px;
+}
+
+.nav-left .brand-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-bar {
+    padding: 7px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+.login-icon,
+.cart-icon {
+    width: 24px;
+    cursor: pointer;
+}
+
+.hamburger-btn {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+/* Hamburger menu: small list sliding in from the right */
+.hamburger-menu {
+    display: none;
+    position: fixed; /* Stay fixed while scrolling */
+    top: 0;
+    right: -250px; /* Initially hidden off-screen */
+    width: 250px; /* Fixed width for the menu */
+    height: 100vh; /* Full height of the viewport */
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent dark background */
+    z-index: 999;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    padding: 20px;
+    transition: right 0.3s ease; /* Smooth slide-in effect */
+}
+
+/* When active, slide in from the right */
+.hamburger-menu.active {
+    right: 0; /* Bring it into view */
+}
+
+/* Close button styling */
+.hamburger-menu .close-btn {
+    align-self: flex-end;
+    font-size: 24px;
+    color: #fff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Menu items styling */
+.hamburger-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+
+/* Styling for the homepage section with background image */
+.homepage-section {
+    background-image: url(img/read-7577787_1920.jpg); /* Replace with your image URL */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: calc(100vh - 60px); /* Subtract the height of the navbar (adjust 60px to match your navbar height) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 3.8rem; /* Ensure content starts after the navbar */
+}
+
+/* Container to hold the buttons */
+.btn-container {
+    margin-top: 0;
+    margin-left: 70%;
+    display: grid;
+    gap: 2rem; /* Space between buttons */
+}
+
+/* Styling for buttons */
+.action-btn {
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #333; /* Dark background for contrast */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #555; /* Lighter background on hover */
+}
+
+
+
+
+
+
+

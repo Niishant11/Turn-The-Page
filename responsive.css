@@ -1,0 +1,6 @@
+/* Hide the hamburger menu on small devices only */
+@media (max-width: 768px) {
+    .hamburger-menu.active {
+        display: flex;
+    }
+}

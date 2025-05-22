@@ -1,0 +1,148 @@
+/* Section container styling */
+.query-footer-section {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    margin-left: 3.8rem; /* Adjust for left navbar width */
+}
+
+/* Query form styling */
+.query-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.form-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.submit-btn {
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #555;
+}
+
+/* Footer styling */
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content, .footer-links, .footer-contact {
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-link {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #333;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    color: #666;
+}
+
+
+/* Footer copyright styling */
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-content, .footer-links, .footer-contact {
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-link {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #333;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Copyright text styling */
+.footer-copyright {
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+    text-align: center;
+}
